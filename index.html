@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>RukkysGrills</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <div class="top_container">
+            <div class="logo" id="logo">
+                <a href="">Rukky's Grills</a>
+            </div>
+            <div class="icons" id="icons">
+                <div class="menu_tab">
+                    <a class="menu_display" href="#">Menu</a>
+                    <a class="about_btn" href="#">About Us</a>
+                </div>
+                <a class="cart" href="#"
+                    ><img class="icon" src="bask.png" alt=""
+                /></a>
+                <a class="log_in_icon" href="#"
+                    ><img class="icon" src="profile.png" alt=""
+                /></a>
+                <a href="#"><img class="icon" src="search.png" alt="" /></a>
+                <a class="nav_icon" href="#"
+                    ><img class="icon" src="menu.png" alt=""
+                /></a>
+            </div>
+            <div class="text">We always have a dish for you</div>
+        </div>
+        <div class="container login_container" id="login_container">
+            <div class="login_middle login_form">
+                <h2>Sign in</h2>
+                <form action="">
+                    <input
+                        placeholder="User Name"
+                        type="text"
+                        name="username"
+                        id="login_username"
+                        class="form_input"
+                    />
+                    <input
+                        placeholder="Password"
+                        type="password"
+                        name="Password"
+                        id="login_password"
+                        class="form_input"
+                    />
+                    <input
+                        type="submit"
+                        value="SIGN IN"
+                        class="sign_in_btn"
+                        id="login_submin_btn"
+                    />
+                </form>
+            </div>
+        </div>
+        <div class="container payment_container" id="payment_container">
+            <div class="payment_form">
+                <h2>Payment</h2>
+                <form class="payment_form" action="">
+                    <input
+                        placeholder="Account Number"
+                        type="number"
+                        name="account_no"
+                        id="account_no"
+                        class="form_input"
+                    />
+                    <select name="card_type" class="form_input" id="">
+                        <option value="master_card">Master Card</option>
+                        <option value="master_card">Verve</option>
+                        <option value="master_card">International Card</option>
+                    </select>
+
+                    <input
+                        placeholder="Account Pin"
+                        type="password"
+                        name="Password"
+                        id="account_pin"
+                        class="form_input"
+                    />
+
+                    <div class="paymentMeth">
+                        <h3>Payment Options</h3>
+                        <span
+                            ><label for="paywithbank">Pay with bank</label>
+                            <input
+                                type="radio"
+                                name="paymentmethod"
+                                id=""
+                                value="bank_payment"
+                        /></span>
+                        <span
+                            ><label for="paywithbank">Card Payment</label>
+                            <input
+                                type="radio"
+                                name="paymentmethod"
+                                id=""
+                                value="card_payment"
+                        /></span>
+                        <span
+                            ><label for="paywithbank">Transfer Payment</label>
+                            <input
+                                type="radio"
+                                name="paymentmethod"
+                                id=""
+                                value="transfer_payment"
+                        /></span>
+                    </div>
+                    <input
+                        type="submit"
+                        value="Make Payment"
+                        class="payment"
+                        id="payment"
+                    />
+                </form>
+            </div>
+        </div>
+        <div class="dishes_section_1">
+            <div class="popular_dishes">
+                <h2>Popular Dishes</h2>
+                <div class="pdishes_container">
+                    <div class="dish_item">
+                        <img class="dish_img" src="img-2.jpg" alt="" />
+                        <p class="dish_name">
+                            Full Grilled Chiken with Vegetables
+                        </p>
+                        <p class="dish_price">3000 Naira</p>
+                        <button data-item="chicken" class="place_order">
+                            Order
+                        </button>
+                    </div>
+                    <div class="dish_item">
+                        <img class="dish_img" src="img-2.jpg" alt="" />
+                        <p class="dish_name">
+                            Full Grilled Chiken with Vegetables
+                        </p>
+                        <p class="dish_price">3000 Naira</p>
+                        <button data-item="chicken" class="place_order">
+                            Order
+                        </button>
+                    </div>
+                    <div class="dish_item">
+                        <img class="dish_img" src="img-2.jpg" alt="" />
+                        <p class="dish_name">
+                            Full Grilled Chiken with Vegetables
+                        </p>
+                        <p class="dish_price">3000 Naira</p>
+                        <button data-item="chicken" class="place_order">
+                            Order
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="popular_dishes">
+                <h2>Our Special Dishes</h2>
+                <div class="pdishes_container">
+                    <div class="dish_item">
+                        <img class="dish_img" src="img-3.jpg" alt="" />
+                        <p class="dish_name">Hot Pizza</p>
+                        <p class="dish_price">2500 Naira</p>
+                        <button data-item="pizza" class="place_order">
+                            Order
+                        </button>
+                    </div>
+                    <div class="dish_item">
+                        <img class="dish_img" src="img-3.jpg" alt="" />
+                        <p class="dish_name">Hot Pizza</p>
+                        <p class="dish_price">2500 Naira</p>
+                        <button data-item="pizza" class="place_order">
+                            Order
+                        </button>
+                    </div>
+                    <div class="dish_item">
+                        <img class="dish_img" src="img-3.jpg" alt="" />
+                        <p class="dish_name">Hot Pizza</p>
+                        <p class="dish_price">2500 Naira</p>
+                        <button data-item="pizza" class="place_order">
+                            Order
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about_section">
+            <div class="about_page">
+                <h2>About Us</h2>
+                <p>
+                    For great getaway, visit Rukky's Grills and discover a new
+                    taste in the magnificent array of our original
+                    delicacies. All our meals are Halal.
+                </p>
+            </div>
+        </div>
+        <div class="dishes_section_2">
+            <div class="ordered_dishes">
+                <h2>Your Orders</h2>
+                <div class="orders_container"></div>
+                <button class="payment_btn proceed">Proceed to payment</button>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_sec">
+                Opens 10:00am <br />
+                Closes 11:00pm
+            </div>
+            <div class="footer_sec">
+                No. 4 Katampe street, Chocolate mall, Wuse 2 abuja
+            </div>
+            <div class="footer_sec">
+                Follow Us <br />
+                Twitter: @rukkysgrills <br />
+                Intagram: @rukkysgrills
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
